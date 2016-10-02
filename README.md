@@ -2,7 +2,7 @@
 
 **Name of your app** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
-Danh sách sinh viên: **Giã Thành Phát**
+Danh sách sinh viên: **1312417 - Giã Thành Phát**
 
 URL: **Vì quên chuyển data từ sqlite sang postgresql nên em không thể up lên heroku**
 
