@@ -47,7 +47,7 @@ Các chuẩn đầu ra cần thực hiện:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](https://cloud.githubusercontent.com/assets/16373591/19022221/587e8cd8-88fd-11e6-901f-277a6010564c.gif)
+![1312417_blog](https://cloud.githubusercontent.com/assets/16373591/19041668/273bbd88-89b3-11e6-8a8e-7cd9196980e9.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
