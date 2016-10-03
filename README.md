@@ -1,6 +1,6 @@
 ﻿# Homework 1 - *Blog*
 
-**Name of your app** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
+**Blog** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
 Danh sách sinh viên: **1312417 - Giã Thành Phát**
 
