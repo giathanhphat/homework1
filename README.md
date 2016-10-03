@@ -1,4 +1,4 @@
-﻿# Homework 1 - *Name of App*
+﻿# Homework 1 - *Blog*
 
 **Name of your app** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
@@ -18,7 +18,7 @@ Danh sách chức năng **bắt buộc**:
 
 Danh sách chức năng **phụ**:
 
-* [ ] Người dùng có thể xóa các bài đã đăng và có hiện câu hỏi yêu cầu xác nhận lại trước khi xóa.
+* [ x] Người dùng có thể xóa các bài đã đăng và có hiện câu hỏi yêu cầu xác nhận lại trước khi xóa.
 * [ ] Người dùng có thể tìm kiếm các bài đăng có tiêu đề chứa từ khóa người dùng đã nhập.
 * [ x] Người dùng được phép đăng nhập, đăng xuất
 * [ ] Bảo mật mật khẩu tài khoản người dùng khi đăng ký. Sủ dụng [Bcrypt](https://github.com/codahale/bcrypt-ruby).
