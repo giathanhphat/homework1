@@ -4,7 +4,7 @@
 
 Danh sách sinh viên: **1312417 - Giã Thành Phát**
 
-URL: **Vì quên chuyển data từ sqlite sang postgresql nên em không thể up lên heroku**
+URL: **https://ancient-shore-87500.herokuapp.com**
 
 ## Chức năng
 
