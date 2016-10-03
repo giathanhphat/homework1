@@ -1,28 +1,30 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Posts</h1>
+<h1 style="color: #FE0202">Posts</h1>
 
-<table>
-  <thead>
+<table >
+  <thead style="background: #F3602D ">
     <tr>
-      <th>Title</th>
-      <th>Body</th>
-      <th>Description</th>
-      <th>Slug</th>
-      <th colspan="3"></th>
+      <th style="border: 1px solid black; text-align: center;">Title</th>
+      <th style="border: 1px solid black; text-align: center;">Body</th>
+      <th style="border: 1px solid black; text-align: center;">Description</th>
+      <th style="border: 1px solid black; text-align: center;">Slug</th>
+       
     </tr>
   </thead>
 
   <tbody>
     <% @posts.each do |post| %>
       <tr>
-        <td><%= markdown(post.title) %></td>
-        <td><%= markdown(post.body) %></td>
-        <td><%= markdown(post.description) %></td>
-        <td><%= markdown(post.slug) %></td>
-        <td><%= link_to 'Show', post %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, confirm: 'Are you sure?' %></td>
+        <td  style="border: 1px solid black"><%= markdown(post.title) %></td>
+        <td  style="border: 1px solid black"><%= markdown(post.body) %></td>
+        <td  style="border: 1px solid black"><%= markdown(post.description) %></td>
+        <td  style="border: 1px solid black"><%= markdown(post.slug) %></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><%= link_to 'Show', post %></td>
+        <td style="text-align: center;"><%= link_to 'Edit', edit_post_path(post) %></td>
+        <td style="text-align: center;"><%= button_to 'Destroy', post, method: :delete, data: {confirm: 'Are you sure?'} %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +32,9 @@
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <%= link_to 'New Post', new_post_path %>
+  </div>
+</div>
+

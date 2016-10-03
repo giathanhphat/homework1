@@ -1,6 +1,15 @@
-<h1>Editing Post</h1>
+<h1 style="color: #E74C3C">New Post</h1>
 
-<%= render 'form', post: @post %>
+<div class="container">
+<div class="panel panel-warning" style="width: 300px">
+	<div class="panel-heading">
+		<h3 class="panel-title" ><%= render 'form', post: @post %></h3>
+	</div>
+</div>
+	
 
-<%= link_to 'Show', @post %> |
-<%= link_to 'Back', posts_path %>
+<div class="panel panel-success" style="width: 70px">
+	<div class="panel-heading" >
+		<%= link_to 'Back', posts_path %>
+	</div>
+</div>
